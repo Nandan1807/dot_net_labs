@@ -1,0 +1,101 @@
+﻿@model FormImplement.Models.CustomerModel
+
+<!-- General Form Elements -->
+<div class="pagetitle">
+    <h1>Orders</h1>
+</div><!-- End Page Title -->
+
+<form asp-action="CustomerSave" asp-controller="Customer" method="post">
+    <div class="row mb-3">
+       
+        <div class="col-sm-10">
+            <input type="hidden" class="form-control" id="CustomerID" name="CustomerID" asp-for="CustomerID">
+            <span asp-validation-for="CustomerID" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="HomeAddress" class="col-sm-2 col-form-label">Home Address</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="HomeAddress" name="HomeAddress" asp-for="HomeAddress">
+            <span asp-validation-for="HomeAddress" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="CustomerName" class="col-sm-2 col-form-label">Customer Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="CustomerName" name="CustomerName" asp-for="CustomerName">
+            <span asp-validation-for="CustomerName" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="Email" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="Email" name="Email" asp-for="Email">
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="MobileNo" class="col-sm-2 col-form-label">Mobile No</label>
+        <div class="col-sm-10">
+            <input type="number" class="form-control" id="MobileNo" name="MobileNo" asp-for="MobileNo">
+            <span asp-validation-for="MobileNo" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="GST_NO" class="col-sm-2 col-form-label">GST_NO</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="GST_NO" name="GST_NO" asp-for="GST_NO">
+            <span asp-validation-for="GST_NO" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="CityName" class="col-sm-2 col-form-label">City Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="CityName" name="CityName" asp-for="CityName">
+            <span asp-validation-for="CityName" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="PinCode" class="col-sm-2 col-form-label">Pin Code</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="PinCode" name="PinCode" asp-for="PinCode">
+            <span asp-validation-for="PinCode" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="NetAmount" class="col-sm-2 col-form-label">Net Amount</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="NetAmount" name="NetAmount" asp-for="NetAmount">
+            <span asp-validation-for="NetAmount" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group row mb-3">
+        @Html.LabelFor(m => m.UserID, "User Name", new { @class = "col-sm-2 col-form-label" })
+        <div class="col-sm-10">
+            <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.UserList, "UserID", "UserName"))">
+                <option value="">Select User</option>
+            </select>
+            @Html.ValidationMessageFor(m => m.UserID, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-sm-10 offset-sm-2">
+            <button type="submit" class="btn btn-primary">Submit Form</button>
+        </div>
+    </div>
+</form><!-- End General Form Elements -->
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

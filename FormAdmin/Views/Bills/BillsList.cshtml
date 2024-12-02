@@ -1,0 +1,53 @@
+﻿@model DataTable;
+@using System.Data;
+<div class="container">
+    <div class="row">
+        <div class="col-6"></div>
+        <div class="col-lg-6 p-4">
+            <a asp-controller="Bills" asp-action="BillsAddEdit"><input type="button" value="ADD" class="btn btn-primary"></a>
+        </div>
+    </div>
+</div>
+<h5 class="text-danger">@TempData["ErrorMessage"]</h5>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">BillID</th>
+            <th scope="col">BillNumber</th>
+            <th scope="col">BillDate</th>
+            <th scope="col">OrderID</th>
+            <th scope="col">TotalAmount</th>
+            <th scope="col">Discount</th>
+            <th scope="col">NetAmount</th>
+            <th scope="col">UserName</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            @foreach (DataRow dataRow in Model.Rows)
+            {
+                <tr>
+                    <td>@dataRow["BillID"]</td>
+                <td>@dataRow["BillNumber"]</td>
+                <td>@dataRow["BillDate"]</td>
+                <td>@dataRow["OrderID"]</td>
+                <td>@dataRow["TotalAmount"]</td>
+                <td>@dataRow["Discount"]</td>
+                <td>@dataRow["NetAmount"]</td>
+                <td>@dataRow["UserName"]</td>
+                <td><a asp-controller="Form" asp-action="Bills"><i class="bi bi-pencil"></i></a></td>
+                <td>
+                    <form method="post" asp-controller="Bills" asp-action="BillsDelete">
+                        <input type="hidden" name="BillID" value="@dataRow["BillID"]" />
+                        <button type="submit" class="btn btn-outline-danger btn-xs">
+                            <i class="bi bi-x"></i>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+            }
+        </tr>
+    </tbody>
+</table>

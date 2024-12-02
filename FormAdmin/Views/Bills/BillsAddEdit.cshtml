@@ -1,0 +1,81 @@
+﻿@model BillsModel;
+<section class="section">
+    <div class="row">
+        <div class="col-lg">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Bill Form</h5>
+                    <div asp-validation-summary="All" class="text-danger"></div>
+
+                    <!-- General Form Elements -->
+                    <form method="post">
+                        <div class="row mb-3">
+                            <label asp-for="BillNumber" class="col-sm-2 col-form-label">Bill Number</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" asp-for="BillNumber" placeholder="Enter Bill number">
+                                <span asp-validation-for="BillNumber" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="BillDate" class="col-sm-2 col-form-label">Bill Date</label>
+                            <div class="col-sm-10">
+                                <input type="date" class="form-control" asp-for="BillDate" placeholder="Enter Bill Date">
+                                <span asp-validation-for="BillDate" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="OrderID" class="col-sm-2 col-form-label">Order ID</label>
+                            <div class="col-sm-10">
+                                <select class="form-control" asp-for="OrderID" asp-items="@(new SelectList(ViewBag.OrderList, "OrderID", "OrderID"))">
+                                    <option value="">Select User</option>
+                                </select>
+                                <span asp-validation-for="OrderID" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="UserID" class="col-sm-2 col-form-label">User ID</label>
+                            <div class="col-sm-10">
+                                <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.UserList, "UserID", "UserName"))">
+                                    <option value="">Select User</option>
+                                </select>
+                                <span asp-validation-for="UserID" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="TotalAmount" class="col-sm-2 col-form-label">Total Amount</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" asp-for="TotalAmount" placeholder="Enter Total Amount">
+                                <span asp-validation-for="TotalAmount" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="Discount" class="col-sm-2 col-form-label">Discount</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" asp-for="Discount" placeholder="Enter Discount">
+                                <span asp-validation-for="Discount" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="NetAmount" class="col-sm-2 col-form-label">Net Amount</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" asp-for="NetAmount" placeholder="Enter Net Amount">
+                                <span asp-validation-for="NetAmount" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm-10 offset-sm-2">
+                                <button type="submit" class="btn btn-primary">Submit Form</button>
+                            </div>
+                        </div>
+                    </form><!-- End General Form Elements -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
