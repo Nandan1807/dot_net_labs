@@ -1,0 +1,58 @@
+﻿@model DataTable;
+@using System.Data;
+
+<div class="container">
+    <div class="row">
+        <div class="col-6"></div>
+        <div class="col-lg-6 p-4">
+            <a asp-controller="Customer" asp-action="CustomerAddEdit"><input type="button" value="ADD" class="btn btn-primary"></a>
+        </div>
+    </div>
+</div>
+<h5 class="text-danger">@TempData["ErrorMessage"]</h5>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">CustomerID</th>
+            <th scope="col">CustomerName</th>
+            <th scope="col">HomeAddress</th>
+            <th scope="col">Email</th>
+            <th scope="col">MobileNo</th>
+            <th scope="col">GST_NO</th>
+            <th scope="col">CityName</th>
+            <th scope="col">PinCode</th>
+            <th scope="col">NetAmount</th>
+            <th scope="col">UserName</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            @foreach (DataRow dataRow in Model.Rows)
+            {
+            <tr>
+                <td>@dataRow["CustomerID"]</td>
+                <td>@dataRow["CustomerName"]</td>
+                <td>@dataRow["HomeAddress"]</td>
+                <td>@dataRow["Email"]</td>
+                <td>@dataRow["MobileNo"]</td>
+                <td>@dataRow["GST_NO"]</td>
+                <td>@dataRow["CityName"]</td>
+                <td>@dataRow["PinCode"]</td>
+                <td>@dataRow["NetAmount"]</td>
+                <td>@dataRow["UserName"]</td>
+                <td><a asp-controller="Form" asp-action="Customer"><i class="bi bi-pencil"></i></a></td>
+                <td>
+                    <form method="post" asp-controller="Customer" asp-action="CustomerDelete">
+                        <input type="hidden" name="CustomerID" value="@dataRow["CustomerID"]" />
+                        <button type="submit" class="btn btn-outline-danger btn-xs">
+                            <i class="bi bi-x"></i>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+            }
+        </tr>
+    </tbody>
+</table>

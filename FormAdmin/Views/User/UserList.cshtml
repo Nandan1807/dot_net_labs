@@ -1,0 +1,50 @@
+﻿@model DataTable;
+@using System.Data;
+
+<div class="container">
+    <div class="row">
+        <div class="col-6"></div>
+        <div class="col-lg-6 p-4">
+            <a asp-controller="User" asp-action="UserAddEdit"><input type="button" value="ADD" class="btn btn-primary"></a>
+        </div>
+    </div>
+</div>
+<h5 class="text-danger">@TempData["ErrorMessage"]</h5>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">UserID</th>
+            <th scope="col">UserName</th>
+            <th scope="col">Email</th>
+            <th scope="col">Password</th>
+            <th scope="col">MobileNo</th>
+            <th scope="col">Address</th>
+            <th scope="col">IsActive</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (DataRow dataRow in Model.Rows)
+            {
+            <tr>
+                <td>@dataRow["UserID"]</td>
+                <td>@dataRow["UserName"]</td>
+                <td>@dataRow["Email"]</td>
+                <td>@dataRow["Password"]</td>
+                <td>@dataRow["MobileNo"]</td>
+                <td>@dataRow["Address"]</td>
+                <td>@dataRow["IsActive"]</td>
+                <td><a asp-controller="User" asp-action="UserAddEdit" asp-route-UserID="@dataRow["UserID"]"><i class="bi bi-pencil"></i></a></td>
+                <td>
+                    <form method="post" asp-controller="User" asp-action="DeleteUser">
+                        <input type="hidden" name="UserID" value="@dataRow["UserID"]" />
+                        <button type="submit" class="btn btn-outline-danger btn-xs">
+                            <i class="bi bi-x"></i>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+            }
+    </tbody>
+</table>

@@ -1,0 +1,54 @@
+﻿@model DataTable;
+@using System.Data;
+
+<div class="container">
+    <div class="row">
+        <div class="col-6"></div>
+        <div class="col-lg-6 p-4">
+            <a asp-controller="Product" asp-action="ProductAddEdit"><input type="button" value="ADD" class="btn btn-primary"></a>
+        </div>
+    </div>
+</div>
+<h5 class="text-danger">@TempData["ErrorMessage"]</h5>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">ProductID</th>
+            <th scope="col">ProductName</th>
+            <th scope="col">ProductPrice</th>
+            <th scope="col">ProductCode</th>
+            <th scope="col">Description</th>
+            <th scope="col">UserName</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            @foreach (DataRow dataRow in Model.Rows)
+            {
+            <tr>
+                <td>@dataRow["ProductID"]</td>
+                <td>@dataRow["ProductName"]</td>
+                <td>@dataRow["ProductPrice"]</td>
+                <td>@dataRow["ProductCode"]</td>
+                <td>@dataRow["Description"]</td>
+                <td>@dataRow["UserName"]</td>
+                <td>
+                    <a class="btn btn-outline-success btn-xs" asp-controller="Product" asp-action="ProductAddEdit" asp-route-ProductID="@dataRow["ProductID"]">
+                        <i class="bi bi-pencil-fill"></i>
+                    </a>
+                </td>
+                <td>
+                    <form method="post" asp-controller="Product" asp-action="ProductDelete">
+                        <input type="hidden" name="ProductID" value="@dataRow["ProductID"]" />
+                        <button type="submit" class="btn btn-outline-danger btn-xs">
+                            <i class="bi bi-x"></i>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+            }
+        </tr>
+    </tbody>
+</table>

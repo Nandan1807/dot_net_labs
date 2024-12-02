@@ -1,0 +1,485 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.Net Theme\\FormAdmin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\user\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\user\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\product\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\product\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\orderdetail\\orderdetaillist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\orderdetail\\orderdetaillist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\order\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\order\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\customer\\customerlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\customer\\customerlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\bills\\billslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\bills\\billslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\orderdetail\\orderdetailaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\orderdetail\\orderdetailaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\bills\\billsaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\bills\\billsaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\customer\\customeraddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\customer\\customeraddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\order\\orderaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\order\\orderaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\models\\billsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:models\\billsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\product\\productaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\product\\productaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\models\\orderdetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:models\\orderdetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\user\\useraddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\user\\useraddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|d:\\.net theme\\formadmin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D4356C-E992-49AA-86B8-893CFB7EEE83}|FormAdmin.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerList.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\Customer\\CustomerList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\CustomerList.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\Customer\\CustomerList.cshtml",
+              "RelativeToolTip": "Views\\Customer\\CustomerList.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T07:22:19.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderList.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\Order\\OrderList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\OrderList.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\Order\\OrderList.cshtml",
+              "RelativeToolTip": "Views\\Order\\OrderList.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T07:23:20.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderDetailList.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\OrderDetail\\OrderDetailList.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderDetail\\OrderDetailList.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\OrderDetail\\OrderDetailList.cshtml",
+              "RelativeToolTip": "Views\\OrderDetail\\OrderDetailList.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T07:24:08.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\Product\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\ProductList.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\Product\\ProductList.cshtml",
+              "RelativeToolTip": "Views\\Product\\ProductList.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T04:42:14.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\User\\UserList.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\UserList.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\User\\UserList.cshtml",
+              "RelativeToolTip": "Views\\User\\UserList.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T07:26:31.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwB4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T07:24:14.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProductModel.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Models\\ProductModel.cs",
+              "RelativeToolTip": "Models\\ProductModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:17:17.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderDetailAddEdit.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\OrderDetail\\OrderDetailAddEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\OrderDetail\\OrderDetailAddEdit.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\OrderDetail\\OrderDetailAddEdit.cshtml",
+              "RelativeToolTip": "Views\\OrderDetail\\OrderDetailAddEdit.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAABsAAACbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T07:24:43.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BillsList.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\Bills\\BillsList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bills\\BillsList.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\Bills\\BillsList.cshtml",
+              "RelativeToolTip": "Views\\Bills\\BillsList.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T07:20:57.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BillsAddEdit.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\Bills\\BillsAddEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Bills\\BillsAddEdit.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\Bills\\BillsAddEdit.cshtml",
+              "RelativeToolTip": "Views\\Bills\\BillsAddEdit.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvxwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T07:21:34.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:26:06.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderDetailController.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Controllers\\OrderDetailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderDetailController.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Controllers\\OrderDetailController.cs",
+              "RelativeToolTip": "Controllers\\OrderDetailController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAUwD4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:23:52.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAwCcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:59:24.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwBsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:23:00.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Models\\OrderModel.cs",
+              "RelativeDocumentMoniker": "Models\\OrderModel.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Models\\OrderModel.cs",
+              "RelativeToolTip": "Models\\OrderModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T03:25:46.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerAddEdit.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\Customer\\CustomerAddEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\CustomerAddEdit.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\Customer\\CustomerAddEdit.cshtml",
+              "RelativeToolTip": "Views\\Customer\\CustomerAddEdit.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T07:22:54.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BillsController.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Controllers\\BillsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BillsController.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Controllers\\BillsController.cs",
+              "RelativeToolTip": "Controllers\\BillsController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAwwCEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:20:39.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderAddEdit.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\Order\\OrderAddEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\OrderAddEdit.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\Order\\OrderAddEdit.cshtml",
+              "RelativeToolTip": "Views\\Order\\OrderAddEdit.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T07:23:47.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:16:42.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BillsModel.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Models\\BillsModel.cs",
+              "RelativeDocumentMoniker": "Models\\BillsModel.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Models\\BillsModel.cs",
+              "RelativeToolTip": "Models\\BillsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T07:59:31.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductAddEdit.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\Product\\ProductAddEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\ProductAddEdit.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\Product\\ProductAddEdit.cshtml",
+              "RelativeToolTip": "Views\\Product\\ProductAddEdit.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T04:42:19.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomerModel.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Models\\CustomerModel.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerModel.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Models\\CustomerModel.cs",
+              "RelativeToolTip": "Models\\CustomerModel.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAywCwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T04:43:25.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FormController.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Controllers\\FormController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FormController.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Controllers\\FormController.cs",
+              "RelativeToolTip": "Controllers\\FormController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T04:36:10.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderDetailModel.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Models\\OrderDetailModel.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDetailModel.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Models\\OrderDetailModel.cs",
+              "RelativeToolTip": "Models\\OrderDetailModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:24:11.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T07:50:12.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserAddEdit.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\User\\UserAddEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\UserAddEdit.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\User\\UserAddEdit.cshtml",
+              "RelativeToolTip": "Views\\User\\UserAddEdit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T07:44:28.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAI8BAAAAAAAAAAAAwJ0BAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T08:03:57.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T04:38:50.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\.Net Theme\\FormAdmin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\.Net Theme\\FormAdmin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T08:05:13.474Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

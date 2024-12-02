@@ -1,0 +1,76 @@
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/FormAdmin.GeneratedMSBuildEditorConfig.editorconfig
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/FormAdmin.AssemblyInfoInputs.cache
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/FormAdmin.AssemblyInfo.cs
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/FormAdmin.csproj.CoreCompileInputs.cache
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/FormAdmin.MvcApplicationPartsAssemblyInfo.cache
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/FormAdmin.RazorAssemblyInfo.cache
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/FormAdmin.RazorAssemblyInfo.cs
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/appsettings.Development.json
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/appsettings.json
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/FormAdmin.staticwebassets.runtime.json
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/FormAdmin.exe
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/FormAdmin.deps.json
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/FormAdmin.runtimeconfig.json
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/FormAdmin.dll
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/FormAdmin.pdb
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/staticwebassets.build.json
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/staticwebassets.development.json
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/staticwebassets/msbuild.FormAdmin.Microsoft.AspNetCore.StaticWebAssets.props
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/staticwebassets/msbuild.build.FormAdmin.props
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FormAdmin.props
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FormAdmin.props
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/staticwebassets.pack.json
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/scopedcss/bundle/FormAdmin.styles.css
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/scopedcss/projectbundle/FormAdmin.bundle.scp.css
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/FormAdmin.dll
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/refint/FormAdmin.dll
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/FormAdmin.pdb
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/FormAdmin.genruntimeconfig.cache
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/ref/FormAdmin.dll
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/System.Data.SqlClient.dll
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+D:/.Net Theme/FormAdmin/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/FormAdmin.csproj.AssemblyReference.cache
+D:/.Net Theme/FormAdmin/obj/Debug/net8.0/FormAdmin.csproj.Up2Date
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/appsettings.Development.json
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/appsettings.json
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/FormAdmin.staticwebassets.runtime.json
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/FormAdmin
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/FormAdmin.deps.json
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/FormAdmin.runtimeconfig.json
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/FormAdmin.dll
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/FormAdmin.pdb
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/System.Data.SqlClient.dll
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/FormAdmin.csproj.AssemblyReference.cache
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/FormAdmin.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/FormAdmin.AssemblyInfoInputs.cache
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/FormAdmin.AssemblyInfo.cs
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/FormAdmin.csproj.CoreCompileInputs.cache
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/FormAdmin.MvcApplicationPartsAssemblyInfo.cache
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/FormAdmin.RazorAssemblyInfo.cache
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/FormAdmin.RazorAssemblyInfo.cs
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/staticwebassets.build.json
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/staticwebassets.development.json
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/staticwebassets/msbuild.FormAdmin.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/staticwebassets/msbuild.build.FormAdmin.props
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FormAdmin.props
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FormAdmin.props
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/scopedcss/bundle/FormAdmin.styles.css
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/scopedcss/projectbundle/FormAdmin.bundle.scp.css
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/FormAdmin.csproj.Up2Date
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/FormAdmin.dll
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/refint/FormAdmin.dll
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/FormAdmin.pdb
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/FormAdmin.genruntimeconfig.cache
+/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/obj/Debug/net8.0/ref/FormAdmin.dll

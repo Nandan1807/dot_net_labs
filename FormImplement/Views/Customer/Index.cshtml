@@ -1,0 +1,99 @@
+﻿@using System.Data
+
+    <style>
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Column-specific styling */
+        .product-id {
+            width: 10%;
+        }
+
+        .product-name {
+            width: 25%;
+        }
+
+        .product-price {
+            width: 15%;
+        }
+
+        .product-code {
+            width: 15%;
+        }
+
+        .description {
+            width: 25%;
+        }
+
+        .user-id {
+            width: 10%;
+        }
+    </style>
+<div class="row mb-3">
+    <div class="col-sm-10">
+        <a asp-controller="Customer" asp-action="Form" type="submit" class="btn btn-primary">Add</a>
+    </div>
+</div>
+    <table>
+        <thead>
+            <tr>
+                <th class="product-id">CustomerID</th>
+                <th class="product-name">CustomerName</th>
+                <th class="product-price">Email</th>
+                <th class="product-code">GST_NO</th>
+                <th class="description">HomeAddress</th>
+                <th class="user-id">CityName</th>
+                <th class="user-id">PinCode</th>
+                <th class="user-id">NetAmount</th>
+                <th class="user-id">UserName</th>
+            <th class="action">Action</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (DataRow dataRow in Model.Rows)
+            {
+                <tr>
+                    <td>@dataRow["CustomerID"]</td>
+                    <td>@dataRow["CustomerName"]</td>
+                    <td>@dataRow["Email"]</td>
+                    <td>@dataRow["GST_NO"]</td>
+                    <td>@dataRow["HomeAddress"]</td>
+                    <td>@dataRow["CityName"]</td>
+                    <td>@dataRow["PinCode"]</td>
+                    <td>@dataRow["NetAmount"]</td>
+                    <td>@dataRow["UserName"]</td>
+                <td>
+                    <a asp-controller="Customer" asp-action="Form" asp-route-CustomerID="@dataRow["CustomerID"]">
+                        <button class="btn btn-success m-1">UPDATE</button>
+                    </a>
+                    <form method="post" asp-controller="Customer" asp-action="CustomerDelete">
+                        <input type="hidden" name="CustomerID" value="@dataRow["CustomerID"]" />
+                        <button class="btn btn-danger m-1">DELETE</button>
+                    </form>
+                </td>
+                </tr>
+            }
+        </tbody>
+    </table>

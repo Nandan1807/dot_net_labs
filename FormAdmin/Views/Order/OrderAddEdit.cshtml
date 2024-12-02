@@ -1,0 +1,67 @@
+﻿@model FormAdmin.Models.OrderModel
+
+<section class="section">
+    <div class="row">
+        <div class="col-lg">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Order Form</h5>
+                    <div asp-validation-summary="All" class="text-danger"></div>
+
+                    <form method="post" asp-action="SaveOrder">
+                        <div class="row mb-3">
+                            <label asp-for="OrderDate" class="col-sm-2 col-form-label">Order Date</label>
+                            <div class="col-sm-10">
+                                <input type="date" class="form-control" asp-for="OrderDate">
+                                <span asp-validation-for="OrderDate" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="CustomerID" class="col-sm-2 col-form-label">Customer ID</label>
+                            <div class="col-sm-10">
+                                <select class="form-control" asp-for="CustomerID" asp-items="@(new SelectList(ViewBag.CustomerList, "CustomerID", "CustomerName"))">
+                                    <option value="">Select Customer</option>
+                                </select>
+                                <span asp-validation-for="CustomerID" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="UserID" class="col-sm-2 col-form-label">User</label>
+                            <div class="col-sm-10">
+                                <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.UserList, "UserID", "UserName"))">
+                                    <option value="">Select User</option>
+                                </select>
+                                <span asp-validation-for="UserID" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="TotalAmount" class="col-sm-2 col-form-label">Total Amount</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" asp-for="TotalAmount">
+                                <span asp-validation-for="TotalAmount" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label asp-for="ShippingAddress" class="col-sm-2 col-form-label">Shipping Address</label>
+                            <div class="col-sm-10">
+                                <textarea asp-for="ShippingAddress" class="form-control"></textarea>
+                                <span asp-validation-for="ShippingAddress" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm-10 offset-sm-2">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

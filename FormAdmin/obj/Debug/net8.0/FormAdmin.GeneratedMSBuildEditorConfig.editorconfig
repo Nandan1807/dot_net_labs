@@ -1,0 +1,151 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FormAdmin
+build_property.RootNamespace = FormAdmin
+build_property.ProjectDir = /Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Bills/BillsAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmlsbHMvQmlsbHNBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Bills/BillsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmlsbHMvQmlsbHNMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Customer/CustomerAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvQ3VzdG9tZXJBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Customer/CustomerList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvQ3VzdG9tZXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Form/Department.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybS9EZXBhcnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Form/Employee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybS9FbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Form/Employee_Project.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybS9FbXBsb3llZV9Qcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Form/OrderDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybS9PcmRlckRldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Form/Project.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRm9ybS9Qcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Home/Alerts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BbGVydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Home/Badges.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9CYWRnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Home/Breadcrumbs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9CcmVhZGNydW1icy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Home/Buttons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9CdXR0b25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Home/Cards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DYXJkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Home/Carousel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DYXJvdXNlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Home/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Home/Modal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Nb2RhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Home/Tabs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9UYWJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Order/OrderAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvT3JkZXJBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Order/OrderList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvT3JkZXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/OrderDetail/OrderDetailAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJEZXRhaWwvT3JkZXJEZXRhaWxBZGRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/OrderDetail/OrderDetailList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJEZXRhaWwvT3JkZXJEZXRhaWxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Product/ProductAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Qcm9kdWN0QWRkRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Product/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Qcm9kdWN0TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/User/UserAddEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Vc2VyQWRkRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/User/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Vc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nandan/Desktop/SEM-5/Dotnet_Labs/FormAdmin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kig7gx5yw3
